@@ -405,7 +405,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptMachine
   _data:
-    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":192.8,"y":-29.19998},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"button":{"$content":"Left","$type":"Unity.VisualScripting.MouseButton"},"action":{"$content":"Down","$type":"Unity.VisualScripting.PressState"}},"position":{"x":-41.0,"y":-96.0},"guid":"2cfd1293-50b7-4025-9773-6db32b848818","$version":"A","$type":"Unity.VisualScripting.OnMouseInput","$id":"10"},{"chainable":false,"parameterNames":["sceneBuildIndex"],"member":{"name":"LoadScene","parameterTypes":["System.Int32"],"targetType":"UnityEngine.SceneManagement.SceneManager","targetTypeName":"UnityEngine.SceneManagement.SceneManager","$version":"A"},"defaultValues":{"%sceneBuildIndex":{"$content":1,"$type":"System.Int32"}},"position":{"x":161.0,"y":-102.0},"guid":"65d3e98e-8512-48a9-ac72-12b2cb2eb829","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"12"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"12"},"destinationKey":"enter","guid":"0d8943f5-5ad9-4802-b3d0-51f62e0c54c3","$type":"Unity.VisualScripting.ControlConnection"}],"$version":"A"}}}'
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":112.8,"y":-191.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"button":{"$content":"Left","$type":"Unity.VisualScripting.MouseButton"},"action":{"$content":"Down","$type":"Unity.VisualScripting.PressState"}},"position":{"x":-99.0,"y":-243.0},"guid":"2cfd1293-50b7-4025-9773-6db32b848818","$version":"A","$type":"Unity.VisualScripting.OnMouseInput","$id":"10"},{"chainable":false,"parameterNames":[],"member":{"name":"Quit","parameterTypes":[],"targetType":"UnityEngine.Application","targetTypeName":"UnityEngine.Application","$version":"A"},"defaultValues":{},"position":{"x":162.0,"y":-238.0},"guid":"4bd125f8-da31-4278-a2bc-9c5eb6b20a04","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"12"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"12"},"destinationKey":"enter","guid":"fb3ee002-04bc-443f-a85f-dcde090ee226","$type":"Unity.VisualScripting.ControlConnection"}],"$version":"A"}}}'
     _objectReferences: []
 --- !u!114 &450192646
 MonoBehaviour:
@@ -700,7 +700,7 @@ GameObject:
   - component: {fileID: 2132668107}
   - component: {fileID: 2132668106}
   m_Layer: 5
-  m_Name: Start game
+  m_Name: END GAME
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -745,10 +745,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'START GAME
-
-
-'
+  m_text: END GAME
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
