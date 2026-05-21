@@ -1052,7 +1052,6 @@ GameObject:
   - component: {fileID: 450192644}
   - component: {fileID: 450192643}
   - component: {fileID: 450192646}
-  - component: {fileID: 450192645}
   m_Layer: 5
   m_Name: UI Background
   m_TagString: Untagged
@@ -1120,21 +1119,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 450192641}
   m_CullTransparentMesh: 1
---- !u!114 &450192645
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 450192641}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptMachine
-  _data:
-    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":242.4,"y":-27.59999},"zoom":1.0,"elements":[{"chainable":false,"parameterNames":["sceneBuildIndex"],"member":{"name":"LoadScene","parameterTypes":["System.Int32"],"targetType":"UnityEngine.SceneManagement.SceneManager","targetTypeName":"UnityEngine.SceneManagement.SceneManager","$version":"A"},"defaultValues":{"%sceneBuildIndex":{"$content":1,"$type":"System.Int32"}},"position":{"x":233.0,"y":-125.0},"guid":"65d3e98e-8512-48a9-ac72-12b2cb2eb829","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"10"},{"coroutine":false,"defaultValues":{"button":{"$content":"Left","$type":"Unity.VisualScripting.MouseButton"},"action":{"$content":"Down","$type":"Unity.VisualScripting.PressState"}},"position":{"x":25.0,"y":-127.0},"guid":"4ac5ffb8-2c39-4d15-b35d-6836c0039ae3","$version":"A","$type":"Unity.VisualScripting.OnMouseInput","$id":"14"},{"sourceUnit":{"$ref":"14"},"sourceKey":"trigger","destinationUnit":{"$ref":"10"},"destinationKey":"enter","guid":"f9d2db04-9c5a-494a-b621-ff5a9330ceb6","$type":"Unity.VisualScripting.ControlConnection"}],"$version":"A"}}}'
-    _objectReferences: []
 --- !u!114 &450192646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2734,7 +2718,7 @@ GameObject:
   - component: {fileID: 2132668107}
   - component: {fileID: 2132668106}
   m_Layer: 5
-  m_Name: Start game
+  m_Name: Coin Shop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
