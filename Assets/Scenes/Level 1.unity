@@ -532,7 +532,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.VisualScripting.Core::Unity.VisualScripting.Variables
   _data:
-    _json: '{"declarations":{"Kind":"Scene","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"Kind":"Scene","collection":{"$content":[{"name":"movement","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!4 &1103711716
 Transform:
@@ -557,6 +558,12 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4922246425565233961, guid: 8d0cfaf550664fd43bac5a2699aadb42, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"forwardSpeed","value":{"$content":10.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"sideSpeed","value":{"$content":10.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     - target: {fileID: 5912502956995330860, guid: 8d0cfaf550664fd43bac5a2699aadb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.256
@@ -624,7 +631,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2404859057783232735, guid: 704df1772f152064892e46ecf60fd3fb, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 38.42
+      value: 154.5
       objectReference: {fileID: 0}
     - target: {fileID: 2404859057783232735, guid: 704df1772f152064892e46ecf60fd3fb, type: 3}
       propertyPath: m_LocalRotation.w
@@ -898,10 +905,26 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -36.5
       objectReference: {fileID: 0}
+    - target: {fileID: 6596372743552697417, guid: 7177127f0198c7f4b9c3b3cfddf95743, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.000030517578
+      objectReference: {fileID: 0}
     - target: {fileID: 7082830394563712887, guid: 7177127f0198c7f4b9c3b3cfddf95743, type: 3}
       propertyPath: Target.TrackingTarget
       value: 
       objectReference: {fileID: 250259601}
+    - target: {fileID: 7996271429593658908, guid: 7177127f0198c7f4b9c3b3cfddf95743, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.72052
+      objectReference: {fileID: 0}
+    - target: {fileID: 7996271429593658908, guid: 7177127f0198c7f4b9c3b3cfddf95743, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.58186
+      objectReference: {fileID: 0}
+    - target: {fileID: 7996271429593658908, guid: 7177127f0198c7f4b9c3b3cfddf95743, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -14.03142
+      objectReference: {fileID: 0}
     - target: {fileID: 8004918759801683378, guid: 7177127f0198c7f4b9c3b3cfddf95743, type: 3}
       propertyPath: m_Name
       value: LevelBase
@@ -944,10 +967,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.VisualScripting.Core::Unity.VisualScripting.Variables
   _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"levelComplete","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"levelComplete","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences:
-    - {fileID: 0}
+    _objectReferences: []
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
